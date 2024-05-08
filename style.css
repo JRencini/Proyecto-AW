@@ -1,17 +1,9 @@
 body{
-  height: 100vh;
+  height: 25vh;
   background-color: rgba(168, 179, 225, 0.8);
-  background-image: linear-gradient(rgba(168, 179, 225, 0.8), rgb(50, 14, 93));
+  background-image: linear-gradient(rgba(105, 120, 179, 0.8), rgba(71, 33, 118, 0.697));
 }
-.navbar-brand img {
-    width: 35px; 
-    margin-right: 5px;
-}
-.navbar-brand {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.card{
-    background-color:rgba(168, 179, 225, 0.8);
+.price{
+  color: rgb(8, 141, 235);
+  font-style: italic;
 }

@@ -1,0 +1,17 @@
+body{
+  height: 100vh;
+  background-color: rgba(168, 179, 225, 0.8);
+  background-image: linear-gradient(rgba(168, 179, 225, 0.8), rgb(50, 14, 93));
+}
+.navbar-brand img {
+    width: 35px; 
+    margin-right: 5px;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card{
+    background-color:rgba(168, 179, 225, 0.8);
+}

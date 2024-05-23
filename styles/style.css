@@ -1,0 +1,9 @@
+body{
+  height: 25vh;
+  background-color: rgba(168, 179, 225, 0.8);
+  background-image: linear-gradient(rgba(105, 120, 179, 0.8), rgba(71, 33, 118, 0.697));
+}
+.price{
+  color: rgb(8, 141, 235);
+  font-style: italic;
+}

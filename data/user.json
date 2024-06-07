@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Juani",
+    "apellido": "Rencini",
+    "email": "juanirencin@gmail.com",
+    "password": "123",
+    "fechaNacimiento": "30/06/2001"
+  },
+  {
+    "nombre": "Juano",
+    "apellido": "Rencini",
+    "email": "juanirencini@gmail.com",
+    "password": "123",
+    "fechaNacimiento": "30/06/2011"
+  },
+  {
+    "nombre": "Leo",
+    "apellido": "Saldi",
+    "email": "leito123@gmail.com",
+    "password": "123",
+    "fechaNacimiento": "13/01/2001"
+  },
+  {
+    "nombre": "Toba",
+    "apellido": "Rencini",
+    "email": "tobamotaza@gmail.com",
+    "password": "123",
+    "fechaNacimiento": "30/11/2000"
+  }
+]

@@ -16,7 +16,7 @@
                   <h5 class="card-title text-center">Iniciar sesión</h5>
               </div>
             <div class="card-body">
-              <form action="../private_page/home/home.html" method="get">
+              <form id="login">
                 <div class="mb-3">
                   <label for="email" class="form-label">Email:</label>
                   <input type="email" class="form-control" id="email" name="email" required>
@@ -26,13 +26,17 @@
                   <input type="password" class="form-control" id="password" name="password" required>
                 </div>
                 <div class="d-grid">
-                  <button type="submit" class="btn btn-secondary">Iniciar sesión</button>
+                  <button type="submit" value="Ingresar" class="btn btn-secondary">Iniciar sesión</button>
                 </div>
               </form>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="container mt-5 text-center">      
+        <div class="alert alert-warning fade"  style="display: none" role="alert" id="lblError"></div>
+      </div>
+</div>
+    <script type= "module" src="login.js"> </script>
 </body>
 </html>

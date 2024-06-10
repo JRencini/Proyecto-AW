@@ -2,7 +2,7 @@ const categoryContainer = document.getElementById('categoryContainer');
 const categoria = document.getElementById('pageName');
   
 import { cardComponent } from "../../components/card.js";
-console.log(categoria.value)
+import { AddButtons } from "../../index.js";
 
 function renderCardsCategory(categories) {
   const categoriesHTML = categories.map(category => { 
@@ -20,6 +20,7 @@ function renderCardsCategory(categories) {
     `; 
   }).join('');
   categoryContainer.innerHTML = categoriesHTML;
+  AddButtons();
 }
 
 fetch('../../data/data.json').then(res => res.json()).then(data => {

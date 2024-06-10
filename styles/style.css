@@ -1,9 +1,15 @@
 body{
-  height: 25vh;
+  height: 10vh;
   background-color: rgba(168, 179, 225, 0.8);
   background-image: linear-gradient(rgba(105, 120, 179, 0.8), rgba(71, 33, 118, 0.646));
 }
 .price{
-  color: rgb(8, 141, 235);
+  color: rgb(193, 214, 229);
   font-style: italic;
+}
+
+.list-group-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }

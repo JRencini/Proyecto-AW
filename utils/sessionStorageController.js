@@ -1,3 +1,3 @@
-export const getData = (key) => {
+export const getUser = (key) => {
   return sessionStorage.getItem(key)
 }

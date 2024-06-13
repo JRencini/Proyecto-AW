@@ -15,21 +15,26 @@ function obtenerArticulos() {
 
 function mostrarArticulos() {
   const articulos = obtenerArticulos();
-    console.log(articulos)
   const listaArticulos = document.getElementById('articulosContainer');
-  
+  listaArticulos.innerHTML = '';
+
   articulos.forEach(articulo => {
-    const newArticuloCard = articuloCard(articulo.title, articulo.img, articulo.cant, articulo.price, articulo.total)
-    listaArticulos.innerHTML += newArticuloCard
+    const newArticuloCard = articuloCard(articulo.id, articulo.title, articulo.img, articulo.cant, articulo.price, articulo.total)
+    listaArticulos.innerHTML += newArticuloCard;
+  });
+
+  document.querySelectorAll('.btn-delete').forEach(button => {
+    button.addEventListener('click', eliminarArticulo);
   });
 }
 
-window.addEventListener('load', mostrarArticulos);
+function eliminarArticulo(event) {
+  const button = event.target.closest('.btn-delete');
+  const id = parseInt(button.getAttribute('data-id'));
+  let articulos = obtenerArticulos();
+  articulos = articulos.filter(articulo => articulo.id !== id);
+  localStorage.setItem('itemsData', JSON.stringify(articulos));
+  mostrarArticulos(); 
+}
 
-btnDelete.addEventListener('click', () => {
-  const selectedItem = selectItems.value
-  const items = getData('itemsData')
-  const index = items.findIndex(e => e.title == selectedItem)
-  items.splice(index, 1) 
-  setData('itemsData', items)
-})
+window.addEventListener('load', mostrarArticulos);

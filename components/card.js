@@ -22,7 +22,7 @@ export const cardComponent = (title, img, text, price) => {
               </p>
             </div>
             <div class="col">
-              <input type="number" class="form-control" min="1" max="5" placeholder="0" step="1"></input>
+              <input type="number" class="form-control" min="1" max="5" placeholder="1" step="1" value="1"></input>
             </div>
               <button class="btn btn-add">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">

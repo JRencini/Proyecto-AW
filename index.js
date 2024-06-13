@@ -1,5 +1,4 @@
 import { navBar } from "./components/navbar.js";
-import { cardComponent } from "./components/card.js";
 import { getUser } from "./utils/sessionStorageController.js";
 import { getData, setData } from "./utils/localStorageController.js";
 
@@ -34,8 +33,11 @@ const AddButtons = () => {
       const newPrice = card.querySelector('.price').textContent;
       const newCant = card.querySelector('.form-control').value;
       const newTotal = (card.querySelector('.hiddenPrice').value * parseInt(newCant))
-      const newItem = { img: newImg, title: newTitle, price: newPrice, cant: newCant, total: newTotal};
+
       const items = getData('itemsData') || [];
+      const newIndex = items.length 
+
+      const newItem = {id: newIndex ,title: newTitle, img: newImg, price: newPrice, cant: newCant, total: newTotal};
       items.push(newItem);
       setData('itemsData', items);
       console.log('Item agregado:', newItem);

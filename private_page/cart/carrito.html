@@ -17,7 +17,23 @@
         <div class="card my-5">
           <div class="card-header text-center fs-2">Artículos en el carrito de compras</div>
             <div class="card-body">
+              <div class="mt-5 mb-5" id="carrito-vacio">                               
+                <p class="text-secondary text-center"> No hay articulos en el carrito</p>               
+              </div>
               <ul class="list-group list-group-item-light rounded-2" id="articulosContainer"></ul>
+            </div>
+            <div class="card-footer">
+              <div class="container-fluid d-flex justify-content-between align-items-center">
+                <button class="btn btn-primary" id="vaciar-carrito">
+                  Vaciar carrito
+                </button>
+                <div class="d-flex flex-column">
+                  <h4 class="mb-0" id="total">Total: 000000</h4>
+                  <button class="btn btn-success mt-3" id="comprar">
+                    Comprar
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

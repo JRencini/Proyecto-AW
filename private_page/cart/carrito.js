@@ -1,8 +1,6 @@
 import { articuloCard } from "../../components/articuloCart.js";
-import { getData, setData } from "../../utils/localStorageController.js";
 
-const btnDelete = document.getElementById('bntDelete')
-  
+
 function obtenerArticulos() {
   if (localStorage.getItem('itemsData')) {
     const carrito = JSON.parse(localStorage.getItem('itemsData'))
@@ -16,12 +14,37 @@ function obtenerArticulos() {
 function mostrarArticulos() {
   const articulos = obtenerArticulos();
   const listaArticulos = document.getElementById('articulosContainer');
-  listaArticulos.innerHTML = '';
+  const carritoVacio = document.getElementById('carrito-vacio')
+  const btnVaciar = document.getElementById('vaciar-carrito')
+  const lblTotal = document.getElementById('total');
+  const btnComprar = document.getElementById('comprar')
 
-  articulos.forEach(articulo => {
-    const newArticuloCard = articuloCard(articulo.id, articulo.title, articulo.img, articulo.cant, articulo.price, articulo.total)
-    listaArticulos.innerHTML += newArticuloCard;
-  });
+  if (articulos.length === 0) {
+
+    carritoVacio.style.display = 'block';
+    btnVaciar.style.display = 'none';
+    lblTotal.style.display = 'none';
+    btnComprar.style.display = 'none';
+
+    listaArticulos.innerHTML = '';
+  } else {
+
+    carritoVacio.style.display = 'none';
+    btnVaciar.style.display = 'block';
+    lblTotal.style.display = 'block';
+    btnComprar.style.display = 'block';
+
+    let total = 0
+    listaArticulos.innerHTML = '';
+
+    articulos.forEach(articulo => {
+      total += articulo.total;
+      const newArticuloCard = articuloCard(articulo.id, articulo.title, articulo.img, articulo.cant, articulo.price, articulo.total)
+      listaArticulos.innerHTML += newArticuloCard;      
+    });
+
+    lblTotal.textContent = `Total: ${total.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' })}`;
+  }
 
   document.querySelectorAll('.btn-delete').forEach(button => {
     button.addEventListener('click', eliminarArticulo);
@@ -36,5 +59,14 @@ function eliminarArticulo(event) {
   localStorage.setItem('itemsData', JSON.stringify(articulos));
   mostrarArticulos(); 
 }
+
+const btnVaciar = document.getElementById('vaciar-carrito')
+btnVaciar.addEventListener('click', () => {
+  if (confirm('¿Esta seguro de quitar todos los elementos del carrito?')) {
+      localStorage.clear()
+      mostrarArticulos(); 
+    }
+})
+
 
 window.addEventListener('load', mostrarArticulos);

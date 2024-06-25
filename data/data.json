@@ -3,81 +3,102 @@
     "categoria": "Accesorios",
     "articulos": [       
       {
+        "id": 1,
         "titulo": "Auriculares Redragon Ares",
         "imagen": "../../imagenes/AuricularesRedragon.jpg",
         "text": "¡Experimentá la adrenalina de sumergirte en la escena de otra manera! Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida. Con los Redragon Ares no te perdés ningún detalle y escuchás el audio tal y como fue diseñado por los creadores.",
-        "price": 21999
+        "price": 21999,
+        "fecha": "2024-06-05"
       },
       {
+        "id": 2,
         "titulo": "Teclado Mecanico Genesis Thor 303",
         "imagen": "../../imagenes/teclado.jpg",
         "text": "El Genesis Thor 303 RGB es el sucesor del popular modelo Thor 300, que llega al mercado en las variantes Full y TKL, ofreciendo a todos los compradores la posibilidad de intercambiar los switches Outemu Blue por otros de distintas características para escritura o videojuegos.",
-        "price": 60629
+        "price": 60629,
+        "fecha": "2024-06-05"
       },
       {
+        "id": 3,
         "titulo": "WEBCAM LOGITECH C920S HD PRO",
         "imagen": "../../imagenes/webcam.jpg",
         "text": "Cámara Web Logitech Hd Pro C920s",
-        "price": 101799
+        "price": 101799,
+        "fecha": "2024-06-05"
       },
-      {
+      {        
+        "id": 4,
         "titulo": "Mouse Yindiao A2 negro",
         "imagen": "../../imagenes/mouse.jpg",
         "text": "Para trabajar desde casa con la computadora o aprovechar los momentos de ocio, necesitás comodidad y facilidad de movimiento. Con tu Yindiao A2 encontrá eso que buscás en un solo aparato con la mejor tecnología.",
-        "price": 8394
+        "price": 8394,
+        "fecha": "2024-06-05"
       }
     ]
   },
   {
     "categoria": "Hardware",
     "articulos": [       
-      {
+      {        
+        "id": 5,
         "titulo": "Gabinete Gamer Atx Xigmatek Duke",
         "imagen": "../../imagenes/gabinete.jpg",
         "text": "El Gabinete Gamer Atx Xigmatek Duke X3 Fan Led Vidrio Templado Color Negro es un producto de alta calidad que incluye 3 x Fan 120MM Raimbow LED.",
-        "price": 64999
+        "price": 64999,
+        "fecha": "2024-06-05"
       },
-      {
+      {        
+        "id": 6,
         "titulo": "MOTHERBOARD B450M-A PRO MAX MSI",
         "imagen": "../../imagenes/MOTHERBOARD-B450M.jpg",
         "text": "Las placas madre MSI cuentan con la zona segura de exclusión de pines, ubicaciones fáciles de SATA y USB y un diseño conveniente e inteligente, para que los usuarios puedan armar su plataforma de juego de la manera que deseen.",
-        "price": 102561
+        "price": 102561,
+        "fecha": "2024-06-05"
       },
-      {
+      {        
+        "id": 7,
         "titulo": "MICROPROCESADOR CPU AMD RYZEN 5 4600G 4.2G ZEN2",
         "imagen": "../../imagenes/MICROPROCESADOR.jpg",
         "text": "La extensa gama de procesadores Ryzen cubre todo el espectro de usuarios que puedas imaginar. Desde equipos modestos para estudiantes y oficina, hasta los más potentes para aquellos que editan y retocan vídeo e imagen. Su nomenclatura deja claro su enfoque, siendo los Ryzen 5 y aquellos en los que su arquitectura Zen ofrece unos resultados inigualables en entornos gaming y profesionales",
-        "price": 138990
+        "price": 138990,
+        "fecha": "2024-06-05"
       },
-      {
+      {        
+        "id": 8,
         "titulo": "COOLER FAN AEROCOOL FROST 12 RGB PARA GABINETE",
         "imagen": "../../imagenes/cooler-fan-aerocool-frost-12-rgb-para-gabinete.jpg",
         "text": "Ventilador de 120 mm con conector Molex + de 3 pines con un elegante diseño de iluminación LED RGB fija para agregar un toque extra a su equipo. Viene equipado con aspas de ventilador curvadas para una mayor presión de aire, maximizando el rendimiento de enfriamiento y minimizando la resistencia al aire y el ruido.",
-        "price": 5819
+        "price": 5819,
+        "fecha": "2024-06-05"
       }
     ]
   },
   {
     "categoria": "Software",
     "articulos": [       
-      {
+      {        
+        "id": 9,
         "titulo": "Corel Draw 2021",
         "imagen": "../../imagenes/corel.jpg",
         "text": "Corel Draw Suite 2021 Completo autoactivado",
-        "price": 3000
+        "price": 3000,
+        "fecha": "2024-06-05"
       },
-      {
+      {        
+        "id": 10,
         "titulo": "Licencia Microsoft 365 Personal 1 Año",
         "imagen": "../../imagenes/microsoft.jpg",
         "text": "¡SOLO PARA CUENTAS EN ARGENTINA!- Si intenta comprar desde otro país para ahorrar dinero Microsoft no se lo va permitir ya que los códigos son solo para cuentas en Argentina.",
-        "price": 51999
+        "price": 51999,
+        "fecha": "2024-06-05"
       },
-      {
+      {        
+        "id": 11,
         "titulo": "Antivirus Avast Ultimate",
         "imagen": "../../imagenes/Avast.jpg",
         "text": "Compatible con Windows, MacOS, iPhone y Android, cada licencia es única y exclusiva para el comprador, con soporte técnico disponible en caso de cualquier inconveniente. La entrega es digital, directo a su correo electrónico sin costo de envío.",
-        "price": 7600
-
+        "price": 7600,
+        "fecha": "2024-06-05"
       }
     ]
   }

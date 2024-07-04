@@ -1,0 +1,62 @@
+[
+  {
+    "idUsuario": 0,
+    "fecha": "30/06/2024",
+    "desc": "Feliz cumpleaños"
+  },
+  {
+    "idUsuario": 1,
+    "fecha": "25/05/2024",
+    "desc": "Nueva oferta en tu tienda favorita"
+  },
+  {
+    "idUsuario": 2,
+    "fecha": "13/01/2024",
+    "desc": "Tu pedido ha sido enviado"
+  },
+  {
+    "idUsuario": 3,
+    "fecha": "05/04/2024",
+    "desc": "Recordatorio de cita médica"
+  },
+  {
+    "idUsuario": 0,
+    "fecha": "20/03/2024",
+    "desc": "Revisa tu bandeja de entrada"
+  },
+  {
+    "idUsuario": 1,
+    "fecha": "11/02/2024",
+    "desc": "Tu suscripción expira pronto"
+  },
+  {
+    "idUsuario": 2,
+    "fecha": "29/12/2023",
+    "desc": "Nuevo mensaje en tu buzón"
+  },
+  {
+    "idUsuario": 3,
+    "fecha": "15/07/2023",
+    "desc": "Actualiza tu perfil para más seguridad"
+  },
+  {
+    "idUsuario": 0,
+    "fecha": "05/06/2024",
+    "desc": "Participa en nuestra encuesta"
+  },
+  {
+    "idUsuario": 1,
+    "fecha": "23/05/2024",
+    "desc": "Nuevo evento cerca de ti"
+  },
+  {
+    "idUsuario": 2,
+    "fecha": "01/04/2024",
+    "desc": "Felicidades, has ganado un premio"
+  },
+  {
+    "idUsuario": 3,
+    "fecha": "17/02/2024",
+    "desc": "Hay una nueva actualización disponible"
+  }
+]

@@ -1,6 +1,9 @@
 const categoryContainer = document.getElementById('categoryContainer');
-
+const notificacionContainer = document.getElementById('notificacionContainer')
+const idUsuario = JSON.parse(sessionStorage.getItem('userData')).id
+console.log(idUsuario)
 import { cardComponent } from "../../components/card.js";
+import { notificacionConst } from "../../components/notificaciones.js"
 import { AddButtons } from "../../index.js";
 
 function renderCardsCategory(categories) {
@@ -25,9 +28,21 @@ function renderCardsCategory(categories) {
   AddButtons();
 }
 
+function renderNotificacion(notificaciones) {
+  const notificacionHTML = notificaciones.map(i => notificacionConst(i.id, i.fecha, i.desc)).join('');
+  notificacionContainer.innerHTML = notificacionHTML;
+}
+
 fetch('../../data/data.json').then(res => res.json()).then(data => {
-    console.log(data);
     renderCardsCategory(data);
+  })
+  .catch(error => {
+    console.error('Error al cargar el JSON:', error);
+  });
+
+fetch('../../data/notificaciones.json').then(res => res.json()).then(data => {
+    const dataFiltrada = data.filter(e => e.idUsuario == idUsuario);
+    renderNotificacion(dataFiltrada);
   })
   .catch(error => {
     console.error('Error al cargar el JSON:', error);

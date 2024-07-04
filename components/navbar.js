@@ -1,8 +1,10 @@
 const userData = sessionStorage.getItem('userData');
 const user = JSON.parse(userData);
 let fullName = ''
+let hayUsuario = ''
 if (user) {
   fullName = `${user.nombre} ${user.apellido}`;
+  hayUsuario = 'href="../usuario/miUsuario.html"'
 }
 
 const navElements = [
@@ -32,7 +34,7 @@ export const navBar = `
         }
       </ul>
       <div class="d-flex ms-auto align-items-center">
-        <a class="navbar-brand" href="../usuario/miUsuario.html">
+        <a class="navbar-brand" ${hayUsuario}>
           <span class="navbar-text me-2" id="lblUser">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
               <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>

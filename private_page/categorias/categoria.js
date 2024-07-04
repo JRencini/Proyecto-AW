@@ -26,8 +26,6 @@ function renderCardsCategory(categories) {
 fetch('../../data/data.json').then(res => res.json()).then(data => {
 
     const dataFiltrada = data.filter(e => e.categoria == categoria.value);
-    console.log(dataFiltrada)
-    console.log(data);
     renderCardsCategory(dataFiltrada);
   })
   .catch(error => {

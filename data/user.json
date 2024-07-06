@@ -9,26 +9,90 @@
   },
   {
     "id": 1,
-    "nombre": "Juano",
-    "apellido": "Rencini",
-    "email": "juanirencini@gmail.com",
-    "password": "123",
-    "fechaNacimiento": "30/06/2011"
+    "nombre": "Carlos",
+    "apellido": "Martínez",
+    "email": "carlosmartinez@gmail.com",
+    "password": "abc123",
+    "fechaNacimiento": "15/04/1995"
   },
   {
     "id": 2,
-    "nombre": "Leo",
-    "apellido": "Saldi",
-    "email": "leito123@gmail.com",
-    "password": "123",
-    "fechaNacimiento": "13/01/2001"
+    "nombre": "Ana",
+    "apellido": "García",
+    "email": "anagarcia@gmail.com",
+    "password": "def456",
+    "fechaNacimiento": "22/08/1988"
   },
   {
     "id": 3,
-    "nombre": "Toba",
-    "apellido": "Rencini",
-    "email": "tobamotaza@gmail.com",
-    "password": "123",
-    "fechaNacimiento": "30/11/2000"
+    "nombre": "María",
+    "apellido": "López",
+    "email": "marialopez@gmail.com",
+    "password": "ghi789",
+    "fechaNacimiento": "07/07/1992"
+  },
+  {
+    "id": 4,
+    "nombre": "Pedro",
+    "apellido": "Rodríguez",
+    "email": "pedrorodriguez@gmail.com",
+    "password": "jkl012",
+    "fechaNacimiento": "30/12/2000"
+  },
+  {
+    "id": 5,
+    "nombre": "Lucía",
+    "apellido": "Pérez",
+    "email": "luciaperez@gmail.com",
+    "password": "mno345",
+    "fechaNacimiento": "09/11/1997"
+  },
+  {
+    "id": 6,
+    "nombre": "Sofía",
+    "apellido": "González",
+    "email": "sofiagonzalez@gmail.com",
+    "password": "pqr678",
+    "fechaNacimiento": "25/05/2002"
+  },
+  {
+    "id": 7,
+    "nombre": "Miguel",
+    "apellido": "Hernández",
+    "email": "miguelhernandez@gmail.com",
+    "password": "stu901",
+    "fechaNacimiento": "14/02/1999"
+  },
+  {
+    "id": 8,
+    "nombre": "Elena",
+    "apellido": "Sánchez",
+    "email": "elenasanchez@gmail.com",
+    "password": "vwx234",
+    "fechaNacimiento": "19/09/1985"
+  },
+  {
+    "id": 9,
+    "nombre": "Jorge",
+    "apellido": "Ramírez",
+    "email": "jorgeramirez@gmail.com",
+    "password": "yz1234",
+    "fechaNacimiento": "03/03/1990"
+  },
+  {
+    "id": 10,
+    "nombre": "Clara",
+    "apellido": "Fernández",
+    "email": "clarafernandez@gmail.com",
+    "password": "abc567",
+    "fechaNacimiento": "01/01/1993"
+  },
+  {
+    "id": 11,
+    "nombre": "David",
+    "apellido": "Ruiz",
+    "email": "davidruiz@gmail.com",
+    "password": "def890",
+    "fechaNacimiento": "27/04/1998"
   }
 ]

@@ -1,3 +1,7 @@
+const notificacionContainer = document.getElementById('notificacionContainer')
+const idUsuario = JSON.parse(sessionStorage.getItem('userData')).id
+
+import { notificacionConst } from "../../components/notificaciones.js"
 
 function mostrarUsuario() {
   const usuario = JSON.parse(sessionStorage.getItem('userData'));
@@ -23,3 +27,20 @@ function mostrarUsuario() {
 document.addEventListener('DOMContentLoaded', () => {
   mostrarUsuario()
 });
+
+function renderNotificacion(notificaciones) {
+  const notificacionHTML = notificaciones.map(i => notificacionConst(i.id, i.fecha, i.desc)).join('');
+  notificacionContainer.innerHTML = notificacionHTML;
+}
+
+fetch('../../data/notificaciones.json')
+  .then(res => res.json())
+  .then(data => {
+    const dataFiltrada = data
+      .filter(e => e.idUsuario == idUsuario)
+    renderNotificacion(dataFiltrada);
+  })
+  .catch(error => {
+    console.error('Error al cargar el JSON:', error);
+  });
+  

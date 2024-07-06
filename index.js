@@ -28,7 +28,7 @@ const AddButtons = () => {
   document.querySelectorAll('.btn-add').forEach(button => {
     button.addEventListener('click', (event) => {
       const card = event.target.closest('.card');
-      const newImg = card.querySelector('.src-img').getAttribute('src');
+      const newImg = card.querySelector('.card-img').getAttribute('src');
       const newTitle = card.querySelector('.card-title').textContent;
       const newPrice = card.querySelector('.price').textContent;
       const newCant = card.querySelector('.form-control').value;

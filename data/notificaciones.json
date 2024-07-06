@@ -58,5 +58,106 @@
     "idUsuario": 3,
     "fecha": "17/02/2024",
     "desc": "Hay una nueva actualización disponible"
+  },
+  {
+    "idUsuario": 4,
+    "fecha": "10/07/2024",
+    "desc": "Feliz cumpleaños"
+  },
+  {
+    "idUsuario": 5,
+    "fecha": "14/06/2024",
+    "desc": "Nueva oferta en tu tienda favorita"
+  },
+  {
+    "idUsuario": 6,
+    "fecha": "22/05/2024",
+    "desc": "Tu pedido ha sido enviado"
+  },
+  {
+    "idUsuario": 7,
+    "fecha": "18/04/2024",
+    "desc": "Recordatorio de cita médica"
+  },
+  {
+    "idUsuario": 8,
+    "fecha": "07/03/2024",
+    "desc": "Revisa tu bandeja de entrada"
+  },
+  {
+    "idUsuario": 9,
+    "fecha": "02/02/2024",
+    "desc": "Tu suscripción expira pronto"
+  },
+  {
+    "idUsuario": 10,
+    "fecha": "19/01/2024",
+    "desc": "Nuevo mensaje en tu buzón"
+  },
+  {
+    "idUsuario": 11,
+    "fecha": "13/12/2023",
+    "desc": "Actualiza tu perfil para más seguridad"
+  },
+  {
+    "idUsuario": 4,
+    "fecha": "11/11/2023",
+    "desc": "Participa en nuestra encuesta"
+  },
+  {
+    "idUsuario": 5,
+    "fecha": "25/10/2023",
+    "desc": "Nuevo evento cerca de ti"
+  },
+  {
+    "idUsuario": 6,
+    "fecha": "15/09/2023",
+    "desc": "Felicidades, has ganado un premio"
+  },
+  {
+    "idUsuario": 7,
+    "fecha": "05/08/2023",
+    "desc": "Hay una nueva actualización disponible"
+  },
+  {
+    "idUsuario": 8,
+    "fecha": "20/07/2023",
+    "desc": "Revisa tus notificaciones"
+  },
+  {
+    "idUsuario": 9,
+    "fecha": "17/06/2023",
+    "desc": "Recibiste un nuevo comentario"
+  },
+  {
+    "idUsuario": 10,
+    "fecha": "09/05/2023",
+    "desc": "Mantenimiento programado del sistema"
+  },
+  {
+    "idUsuario": 11,
+    "fecha": "28/04/2023",
+    "desc": "Nuevo curso disponible"
+  },
+  {
+    "idUsuario": 4,
+    "fecha": "13/03/2023",
+    "desc": "Promoción exclusiva para ti"
+  },
+  {
+    "idUsuario": 5,
+    "fecha": "05/02/2023",
+    "desc": "Tu factura está disponible"
+  },
+  {
+    "idUsuario": 6,
+    "fecha": "21/01/2023",
+    "desc": "Recuerda actualizar tu información"
+  },
+  {
+    "idUsuario": 7,
+    "fecha": "09/12/2022",
+    "desc": "Nueva solicitud de amistad"
   }
 ]
+

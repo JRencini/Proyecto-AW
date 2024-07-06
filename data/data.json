@@ -8,7 +8,7 @@
         "imagen": "../../imagenes/AuricularesRedragon.jpg",
         "text": "¡Experimentá la adrenalina de sumergirte en la escena de otra manera! Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida. Con los Redragon Ares no te perdés ningún detalle y escuchás el audio tal y como fue diseñado por los creadores.",
         "price": 21999,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {
         "id": 2,
@@ -16,15 +16,15 @@
         "imagen": "../../imagenes/teclado.jpg",
         "text": "El Genesis Thor 303 RGB es el sucesor del popular modelo Thor 300, que llega al mercado en las variantes Full y TKL, ofreciendo a todos los compradores la posibilidad de intercambiar los switches Outemu Blue por otros de distintas características para escritura o videojuegos.",
         "price": 60629,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {
         "id": 3,
         "titulo": "WEBCAM LOGITECH C920S HD PRO",
         "imagen": "../../imagenes/webcam.jpg",
-        "text": "Cámara Web Logitech Hd Pro C920s",
+        "text": "Experimenta videollamadas y transmisiones en alta definición con la Cámara Web Logitech HD Pro C920s. Diseñada para ofrecer una calidad excepcional, captura imágenes nítidas y colores vibrantes gracias a su resolución Full HD 1080p.",
         "price": 101799,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {        
         "id": 4,
@@ -32,8 +32,57 @@
         "imagen": "../../imagenes/mouse.jpg",
         "text": "Para trabajar desde casa con la computadora o aprovechar los momentos de ocio, necesitás comodidad y facilidad de movimiento. Con tu Yindiao A2 encontrá eso que buscás en un solo aparato con la mejor tecnología.",
         "price": 8394,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
+      },
+      {
+        "id": 19,
+        "titulo": "Kit Teclado Y Mouse Inalambrico",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_729811-MLA74780660197_022024-O.webp",
+        "text": "Todas las funciones en tamaño compacto. La compacta combinación de teclado y mouse con todas las teclas necesarias.El teclado es un 36% más pequeño que los teclados normales, pero incluye todas las teclas estándar.", 
+        "price": 31999,
+        "fecha": "2024/06/05"
+      },
+      {
+        "id": 20,
+        "titulo": "Micrófono Redragon BLAZAR GM300 Condensador Cardioide",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_813038-MLA74650433118_022024-O.webp",
+        "text":"Mejora la calidad de tus grabaciones y transmisiones en vivo con el Micrófono Redragon BLAZAR GM300. Este micrófono de condensador de mesa cuenta con un patrón polar cardioide que capta el sonido de manera precisa y clara, ideal para voces, streaming y grabaciones.",
+        "price": 104600,
+        "fecha": "2024/06/01"
+      },
+      {
+        "id": 21,
+        "titulo": "Joystick Redragon Saturn G807",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_817938-MLU72646008405_112023-O.webp",
+        "text": "El Saturn es una gemepad de PC con conexión XInput o DInput.Además posee todas las funciones de un mando de PS3 siendo compatible con la misma.",
+        "price": 23999,
+        "fecha": "2024/02/29"
+      },
+      {
+        "id": 22,
+        "titulo": "Alfombrilla de ratón para juegos, grande, iluminada, LED RGB, 7 colores",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_859648-MLB45797408262_052021-O.webp",
+        "text": "Es muy fácil deslizar el ratón. Con tu Led Gamer puedes llenar la pantalla de tu ordenador con unos clics. Su elaborada superficie aportará precisión y comodidad a tus movimientos.",
+        "price": 17880,
+        "fecha": "2024/06/16"
+      },
+      {
+        "id": 23,
+        "titulo": "Parlante Stereo Genius Usb",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_787359-MLA42899391577_072020-O.webp",
+        "text": "Genius SP-HF180 ofrece un sonido natural, con una gran claridad y precisión, que se dispersa de manera uniforme. Un parlante que asegura potencia y calidad por igual en la reproducción de contenidos multimedia.",
+        "price": 18499,
+        "fecha": "2024/06/22"
+      },
+      {
+        "id": 24,
+        "titulo": "Placa de red TP-Link TL-WN725N",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_662216-MLU73835068134_012024-O.webp",
+        "text": "Adaptador Wifi USB TP-Link TL-725N Nano. Placa de red wifi de conexión USB, fabricada por TP-Link, utilizable con computadoras y notebooks, y con sistemas operativos Windows o Mac. Esta placa wifi facilita una alta velocidad de transferencia para streaming, juegos en línea y reproducción de contenido multimedia en alta definición.",
+        "price": 9100,
+        "fecha": "2024/06/24"
       }
+      
     ]
   },
   {
@@ -45,7 +94,7 @@
         "imagen": "../../imagenes/gabinete.jpg",
         "text": "El Gabinete Gamer Atx Xigmatek Duke X3 Fan Led Vidrio Templado Color Negro es un producto de alta calidad que incluye 3 x Fan 120MM Raimbow LED.",
         "price": 64999,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {        
         "id": 6,
@@ -53,7 +102,7 @@
         "imagen": "../../imagenes/MOTHERBOARD-B450M.jpg",
         "text": "Las placas madre MSI cuentan con la zona segura de exclusión de pines, ubicaciones fáciles de SATA y USB y un diseño conveniente e inteligente, para que los usuarios puedan armar su plataforma de juego de la manera que deseen.",
         "price": 102561,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {        
         "id": 7,
@@ -61,7 +110,7 @@
         "imagen": "../../imagenes/MICROPROCESADOR.jpg",
         "text": "La extensa gama de procesadores Ryzen cubre todo el espectro de usuarios que puedas imaginar. Desde equipos modestos para estudiantes y oficina, hasta los más potentes para aquellos que editan y retocan vídeo e imagen. Su nomenclatura deja claro su enfoque, siendo los Ryzen 5 y aquellos en los que su arquitectura Zen ofrece unos resultados inigualables en entornos gaming y profesionales",
         "price": 138990,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {        
         "id": 8,
@@ -69,7 +118,55 @@
         "imagen": "../../imagenes/cooler-fan-aerocool-frost-12-rgb-para-gabinete.jpg",
         "text": "Ventilador de 120 mm con conector Molex + de 3 pines con un elegante diseño de iluminación LED RGB fija para agregar un toque extra a su equipo. Viene equipado con aspas de ventilador curvadas para una mayor presión de aire, maximizando el rendimiento de enfriamiento y minimizando la resistencia al aire y el ruido.",
         "price": 5819,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
+      },
+      {        
+        "id": 25,
+        "titulo": "Nvidia Zotac Gaming GeForce RTX 30 Series RTX 3090",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_801864-MLU72645266561_112023-O.webp",
+        "text": "Eleva tu experiencia de juego al siguiente nivel con la Placa de video Nvidia Zotac Gaming GeForce RTX 3090 ZT-A30900D-10P 24GB. Esta potente tarjeta gráfica de la reconocida marca Zotac, perteneciente a la serie GeForce RTX 30, te permitirá disfrutar de tus juegos favoritos con una calidad de imagen y rendimiento insuperables.",
+        "price": 1081675,
+        "fecha": "2024/05/12"
+      },
+      {        
+        "id": 26,
+        "titulo": " Memoria Kingston Fury Beast Rgb 16gb Ddr4 3200mhz",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_659797-MLU74696056168_022024-O.webp",
+        "text": "Si tu computadora funciona con lentitud, si un programa no responde o no se carga, lo más probable es que se trate de un problema de memoria. Estos son posibles indicios de un rendimiento defectuoso en el día a día de tus tareas.",
+        "price": 36200,
+        "fecha": "2024/06/20"
+      },
+      {        
+        "id": 27,
+        "titulo": "Fuente Pc Gamer Atx Thermaltake Tr2 600w",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_627569-MLA76939247363_062024-O.webp",
+        "text": "La Fuente de PC Gamer ATX Thermaltake TR2 600W ofrece potencia confiable para tu setup de juegos. Con certificación 80 Plus, asegura eficiencia energética y rendimiento óptimo. Equipada con cables mallados para una instalación ordenada y ventilador silencioso que mantiene tu sistema fresco durante largas sesiones de juego.",
+        "price": 78999,
+        "fecha": "2024/05/04"
+      },
+      {        
+        "id": 28,
+        "titulo": "Disco sólido interno Kingston SA400S37/480G SATA III",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_751939-MLA46221843872_052021-O.webp",
+        "text": "Considerado un dispositivo de alto rendimiento, la unidad en estado sólido A400 de Kingston está diseñada para las personas más exigentes. Mejora de forma notable la capacidad de respuesta de su sistema, ya que alcanza velocidades de lectura/escritura de hasta 500MB/seg y 450MB/seg. Por ende, es 10 veces más rápido que un disco duro tradicional.",
+        "price": 72500,
+        "fecha": "2024/06/22"
+      },
+      {        
+        "id": 29,
+        "titulo": "Placa de video Nvidia MSI Ventus XS GEFORCE GTX 1650 D6",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_749245-MLU74110433100_012024-O.webp",
+        "text": "Con una velocidad de memoria de 12000 MHz los datos del procesador central se van a traducir en información comprensible en tan solo un abrir y cerrar de ojos; decodificará tantos ciclos por segundo que hará más efectiva la transmisión de datos a otros componentes. Con esta cualidad, el equipo ganará agilidad y eficiencia.",
+        "price": 334600,
+        "fecha": "2024/05/30"
+      },
+      {        
+        "id": 30,
+        "titulo": "Procesador Gamer Intel Core I5 12400",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_718651-MLU74244276635_012024-O.webp",
+        "text": "Mejora el rendimiento de tu computadora con el Microprocesador Intel Core i5 12400 de 12va generación Alder Lake. Este potente procesador cuenta con 6 núcleos y 12 hilos, lo que te permitirá realizar múltiples tareas de manera eficiente y rápida. Además, su arquitectura x86-64 garantiza una excelente compatibilidad con una amplia variedad de programas y aplicaciones.  ",
+        "price": 245740,
+        "fecha": "2024/06/25"
       }
     ]
   },
@@ -82,7 +179,7 @@
         "imagen": "../../imagenes/corel.jpg",
         "text": "Corel Draw Suite 2021 Completo autoactivado",
         "price": 3000,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {        
         "id": 10,
@@ -90,7 +187,7 @@
         "imagen": "../../imagenes/microsoft.jpg",
         "text": "¡SOLO PARA CUENTAS EN ARGENTINA!- Si intenta comprar desde otro país para ahorrar dinero Microsoft no se lo va permitir ya que los códigos son solo para cuentas en Argentina.",
         "price": 51999,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
       },
       {        
         "id": 11,
@@ -98,7 +195,63 @@
         "imagen": "../../imagenes/Avast.jpg",
         "text": "Compatible con Windows, MacOS, iPhone y Android, cada licencia es única y exclusiva para el comprador, con soporte técnico disponible en caso de cualquier inconveniente. La entrega es digital, directo a su correo electrónico sin costo de envío.",
         "price": 7600,
-        "fecha": "2024-06-05"
+        "fecha": "2024/06/05"
+      },
+      {        
+        "id": 12,
+        "titulo": "McAfee Antivirus para 1 PC",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_947913-MLU72998680938_112023-O.webp",
+        "text": "Este producto proporciona una protección esencial para su PC, ya que le permite navegar, realizar operaciones bancarias y comprar en línea de forma segura. McAfee Antivirus es una marca de confianza que ofrece una protección galardonada para su PC, que incluye funciones esenciales como la navegación segura por Internet, la seguridad mediante cortafuegos, el compromiso de protección antivirus y mucho más.",
+        "price": 12089,
+        "fecha": "2024/07/01"
+      },
+      {        
+        "id": 13,
+        "titulo": "Software Canva Edu Pro",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_804302-MLA77152046681_062024-O.webp",
+        "text": "Licencia de Canva Educacional Permanente, compatible con Windows y MacOs",
+        "price": 23500,
+        "fecha": "2024/07/02"
+      },
+      {        
+        "id": 14,
+        "titulo": "Licencia Oficial Autocad",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_813573-MLA75809071117_042024-O.webp",
+        "text": "Licencia de AutoCAD por la duración de 1 año. Compatible con Windows y MacOs, hasta 3 dispositivos diferentes con la misma cuenta.",
+        "price": 200000,
+        "fecha": "2024/06/28"
+      },
+            {        
+        "id": 15,
+        "titulo": "Licencia Original Windows 11 Pro",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_612326-MLA77245700461_062024-O.webp",
+        "text": "- Son permanentes (No Caducan)- Son Reinstalables en el mismo equipo.- Son Originales.",
+        "price": 40000,
+        "fecha": "2024/06/13"
+      },
+      {        
+        "id": 16,
+        "titulo": "Panda Dome Essentia",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_993305-MLA52514211942_112022-O.webp",
+        "text": "Con Panda Dome hacemos tu vida digital más fácil y segura, licencias originales, con activación online. Mantenga su familia segura con las protecciones de Panda Security, líder en soluciones de ciberseguridad.",
+        "price": 8699,
+        "fecha": "2024/05/04"
+      },      
+      {        
+        "id": 17,
+        "titulo": "Dispositivos de Kaspersky Total Security 5",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_735930-MLU71851259120_092023-O.webp",
+        "text": "Kaspersky Total Security ofrece la mejor protección digital para usted y su familia. Proteja sus datos, archivos y documentos mientras navega, trabaja y se divierte en Internet. Una solución completa que, además de la protección convencional, ofrece un almacenamiento seguro de las contraseñas y de todo lo que consideres importante.",
+        "price": 17900,
+        "fecha": "2024/06/02"
+      },
+      {        
+        "id": 18,
+        "titulo": "Antivirus Kaspersky Total Premium",
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_803748-MLA75232940172_032024-O.webp",
+        "text": "Protección Completa para tus Dispositivos Kaspersky Total Security Premium ofrece una defensa completa contra ciberamenazas en tiempo real. Con nuestro galardonado antivirus y sistema antihackeo, tus dispositivos estarán seguros las 24 horas del día. Navega y trabaja con total tranquilidad.",
+        "price": 26910,
+        "fecha": "2024/07/05"
       }
     ]
   }

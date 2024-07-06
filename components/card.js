@@ -4,7 +4,7 @@ export const cardComponent = (title, img, text, price) => {
   return `
     <div class="col"> 
       <div class="card">
-        <img src="${img}" alt="" class="src-img">
+        <img src="${img}" alt="" class="card-img">
         <div class="card-body">
           <h5 class="card-title">
             ${title}

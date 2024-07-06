@@ -17,7 +17,7 @@ function mostrarArticulos() {
   const carritoVacio = document.getElementById('carrito-vacio')
   const btnVaciar = document.getElementById('vaciar-carrito')
   const lblTotal = document.getElementById('total');
-  const btnComprar = document.getElementById('comprar')
+  const btnComprar = document.getElementById('comprar-carrito')
 
   if (articulos.length === 0) {
 
@@ -68,5 +68,13 @@ btnVaciar.addEventListener('click', () => {
     }
 })
 
+const btnComprar = document.getElementById('comprar-carrito')
+btnComprar.addEventListener('click', () => {
+  if (confirm('¿Desea comprar los articulos del carrito?')) {
+    alert("Gracias por su compra :)");
+    localStorage.clear()
+    mostrarArticulos(); 
+  }
+})
 
 window.addEventListener('load', mostrarArticulos);

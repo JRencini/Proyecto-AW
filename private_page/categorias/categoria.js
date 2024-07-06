@@ -11,7 +11,7 @@ function renderCardsCategory(categories) {
       <div class="my-5">
         <div class="card">
           <div class="card-body">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
               ${cardsHTML}
             </div>
           </div>

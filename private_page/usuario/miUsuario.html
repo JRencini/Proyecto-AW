@@ -13,23 +13,37 @@
   </header>
   <input type="hidden" id="pageName" value="Mi usuario">
     <div class="container-fluid"> 
-      <div class="card text-center my-5" style="width: 18rem;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-person-circle mx-auto" viewBox="0 0 16 16">
-          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-        </svg> 
-        <div class="card-body">
-          <h5 id="usu-nombre">
-            Nombre de usuario
-          </h5>
-          <p id="usu-mail">
-            Mail de usuario
-          </p>
-          <p class="text-secondary" id="usu-fecha">
-            00/00/0000
-          </p>
+    <div class="row">
+      <div class="col ">
+        <div class="card text-center my-5" style="width: 18rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-person-circle mx-auto my-5" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg> 
+          <div class="card-body">
+            <h5 id="usu-nombre">
+              Nombre de usuario
+            </h5>
+            <p id="usu-mail">
+              Mail de usuario
+            </p>
+            <p class="text-secondary" id="usu-fecha">
+              00/00/0000
+            </p>
+          </div>
         </div>
       </div>
+      <div class="col-12 col-md-10">
+        <div class="card my-5">
+          <div class="card-header">Notificaciones</div>
+          <div class="card-body">
+            <ul class="list-group list-group-item-light rounded-2">
+              <div id="notificacionContainer"><div>            
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
     <script type= "module" src="../../index.js"> </script>
     <script type= "module" src="../usuario/miUsuario.js"> </script>

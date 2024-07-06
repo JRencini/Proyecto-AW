@@ -1,7 +1,11 @@
 const categoryContainer = document.getElementById('categoryContainer');
 const notificacionContainer = document.getElementById('notificacionContainer')
 const ingresosContainer = document.getElementById('ingresosContainer')
-const idUsuario = JSON.parse(sessionStorage.getItem('userData')).id
+const sinNotificaciones = document.getElementById('sin-notificaciones')
+let idUsuario = ""
+if (sessionStorage.getItem('userData')) {
+  idUsuario = JSON.parse(sessionStorage.getItem('userData')).id
+}
 
 import { cardComponent } from "../../components/card.js";
 import { ingresosConst } from "../../components/ingresosNuevos.js";
@@ -40,7 +44,11 @@ function renderIngresos(ingresos) {
   ingresosContainer.innerHTML = ingresoHTML;
 }
 
-fetch('../../data/notificaciones.json')
+if (idUsuario === "") {
+  sinNotificaciones.style.display = 'block';
+}else{
+  sinNotificaciones.style.display = 'none';
+  fetch('../../data/notificaciones.json')
   .then(res => res.json())
   .then(data => {
     const dataFiltrada = data
@@ -52,6 +60,8 @@ fetch('../../data/notificaciones.json')
   .catch(error => {
     console.error('Error al cargar el JSON:', error);
   });
+}
+
   
 fetch('../../data/data.json')
   .then(res => res.json())

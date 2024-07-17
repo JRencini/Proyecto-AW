@@ -6,7 +6,7 @@ import { AddButtons } from "../../index.js";
 
 function renderCardsCategory(categories) {
   const categoriesHTML = categories.map(category => { 
-    const cardsHTML = category.articulos.map(item => cardComponent(item.titulo, item.imagen, item.text, item.price)).join('');
+    const cardsHTML = category.articulos.map(item => cardComponent(item.id, item.titulo, item.imagen, item.text, item.price)).join('');
     return `
       <div class="my-5">
         <div class="card">

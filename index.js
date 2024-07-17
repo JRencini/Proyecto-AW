@@ -12,8 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const userInfo = getUser('userData');
   const items = getData('itemsData');
-  console.log(userInfo);
-  console.log(items);
 
   navContainer.innerHTML = navBar;
   document.title = pageName;
@@ -24,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-const AddButtons = () => {
+export const AddButtons = () => {
   document.querySelectorAll('.btn-add').forEach(button => {
     button.addEventListener('click', (event) => {
       const card = event.target.closest('.card');
@@ -44,6 +42,3 @@ const AddButtons = () => {
     });
   });
 };
-
-export { AddButtons };
-

@@ -1,17 +1,17 @@
-export const cardComponent = (title, img, text, price) => {
+export const cardComponent = (id, title, img, text, price) => {
   const formattedPrice = price.toLocaleString('es-AR', { style: 'currency', currency: 'ARS' });
 
   return `
     <div class="col"> 
-      <div class="card">
-        <img src="${img}" alt="" class="card-img">
+      <div class="card">       
+        <a class"card-link" href="../item/item.html?id=${id}">
+          <img src="${img}" alt="" class="card-img">
+        </a>
         <div class="card-body">
-          <h5 class="card-title">
-            ${title}
-          </h5>
-          <p class="card-text">
-            ${text}
-          </p>
+          <a class="card-link text-decoration-none text-white" href="../item/item.html?id=${id}"">
+            <h5 class="card-title" >${title}</h5>
+            <p class="card-text">${text}</p>
+          </a>
         </div>
         <div class="card-footer">
           <div class="d-flex ms-auto align-items-center">

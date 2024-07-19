@@ -38,6 +38,8 @@ fetch('../../data/notificaciones.json')
   .then(data => {
     const dataFiltrada = data
       .filter(e => e.idUsuario == idUsuario)
+      .sort((a, b) => new Date(b.fecha) - new Date(a.fecha)) 
+      .slice(0, 20); 
     renderNotificacion(dataFiltrada);
   })
   .catch(error => {

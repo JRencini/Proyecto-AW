@@ -1,4 +1,4 @@
-import { navBar } from "./components/navbar.js";
+import { buildNavBar } from "./components/navbar.js";
 import { getUser } from "./utils/sessionStorageController.js";
 import { getData, setData } from "./utils/localStorageController.js";
 
@@ -9,17 +9,16 @@ const logout = (key) => {
 document.addEventListener('DOMContentLoaded', () => {
   const navContainer = document.querySelector('header');
   const pageName = document.getElementById('pageName').value;
-
-  const userInfo = getUser('userData');
-  const items = getData('itemsData');
-
-  navContainer.innerHTML = navBar;
   document.title = pageName;
-
-  document.getElementById('btnLogout').addEventListener('click', () => {
-    logout('userData');
-    window.location.href = '/public_page/login.html';
-  });
+  
+  (async () => {
+    const navBar = await buildNavBar();
+    navContainer.innerHTML = navBar;
+    document.getElementById('btnLogout').addEventListener('click', () => {
+      logout('userData');
+      window.location.href = '/public_page/login.html';
+    });
+  })();
 });
 
 export const AddButtons = () => {

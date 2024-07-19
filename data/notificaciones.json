@@ -110,12 +110,12 @@
     "desc": "Nuevo evento cerca de ti"
   },
   {
-    "idUsuario": 6,
+    "idUsuario": 0,
     "fecha": "15/09/2023",
     "desc": "Felicidades, has ganado un premio"
   },
   {
-    "idUsuario": 7,
+    "idUsuario": 0,
     "fecha": "05/08/2023",
     "desc": "Hay una nueva actualización disponible"
   },

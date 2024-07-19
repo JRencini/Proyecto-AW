@@ -1,7 +1,5 @@
 const categoryContainer = document.getElementById('categoryContainer');
-const notificacionContainer = document.getElementById('notificacionContainer')
 const ingresosContainer = document.getElementById('ingresosContainer')
-const sinNotificaciones = document.getElementById('sin-notificaciones')
 let idUsuario = ""
 if (sessionStorage.getItem('userData')) {
   idUsuario = JSON.parse(sessionStorage.getItem('userData')).id
@@ -34,35 +32,11 @@ function renderCardsCategory(categories) {
   AddButtons();
 }
 
-function renderNotificacion(notificaciones) {
-  const notificacionHTML = notificaciones.map(i => notificacionConst(i.id, i.fecha, i.desc)).join('');
-  notificacionContainer.innerHTML = notificacionHTML;
-}
-
 function renderIngresos(ingresos) {
   const ingresoHTML = ingresos.map(i => ingresosConst(i.fecha, i.titulo)).join('');
   ingresosContainer.innerHTML = ingresoHTML;
 }
 
-if (idUsuario === "") {
-  sinNotificaciones.style.display = 'block';
-}else{
-  sinNotificaciones.style.display = 'none';
-  fetch('../../data/notificaciones.json')
-  .then(res => res.json())
-  .then(data => {
-    const dataFiltrada = data
-      .filter(e => e.idUsuario == idUsuario)
-      .sort((a, b) => new Date(b.fecha) - new Date(a.fecha))
-      .slice(0, 3);
-    renderNotificacion(dataFiltrada);
-  })
-  .catch(error => {
-    console.error('Error al cargar el JSON:', error);
-  });
-}
-
-  
 fetch('../../data/data.json')
   .then(res => res.json())
   .then(data => {

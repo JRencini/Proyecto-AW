@@ -10,7 +10,7 @@ export const cardComponent = (id, title, img, text, price) => {
         <div class="card-body">
           <a class="card-link text-decoration-none text-white" href="../item/item.html?id=${id}"">
             <h5 class="card-title" >${title}</h5>
-            <p class="card-text">${text}</p>
+            <p class="card-text-description text-secondary">${text}</p>
           </a>
         </div>
         <div class="card-footer">

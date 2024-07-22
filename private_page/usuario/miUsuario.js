@@ -3,6 +3,11 @@ const idUsuario = JSON.parse(sessionStorage.getItem('userData')).id
 
 import { notificacionConst } from "../../components/notificaciones.js"
 
+function formatearFecha(fecha) {
+  const [anio, mes, dia] = fecha.split('/');
+  return `${dia}/${mes}/${anio}`;
+}
+
 function mostrarUsuario() {
   const usuario = JSON.parse(sessionStorage.getItem('userData'));
   if (usuario && usuario.nombre && usuario.apellido) {
@@ -19,7 +24,7 @@ function mostrarUsuario() {
     }
 
     if (fechaUsu) {
-      fechaUsu.textContent = usuario.fechaNacimiento; 
+      fechaUsu.textContent = formatearFecha(usuario.fechaNacimiento); 
     }
   }
 }

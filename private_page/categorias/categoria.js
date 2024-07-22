@@ -8,10 +8,10 @@ function renderCardsCategory(categories) {
   const categoriesHTML = categories.map(category => { 
     const cardsHTML = category.articulos.map(item => cardComponent(item.id, item.titulo, item.imagen, item.text, item.price)).join('');
     return `
-      <div class="my-5">
-        <div class="card">
+      <div class="my-5 d-flex justify-content-center">
+        <div class="card col-10">
           <div class="card-body">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
               ${cardsHTML}
             </div>
           </div>

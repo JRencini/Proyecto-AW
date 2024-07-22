@@ -3,13 +3,13 @@ export const cardComponent = (id, title, img, text, price) => {
 
   return `
     <div class="col"> 
-      <div class="card">       
+      <div class="card" style="background-color: rgba(11, 11, 11, 0.5);">       
         <a class"card-link" href="../item/item.html?id=${id}">
           <img src="${img}" alt="" class="card-img">
         </a>
         <div class="card-body">
           <a class="card-link text-decoration-none text-white" href="../item/item.html?id=${id}"">
-            <h5 class="card-title" >${title}</h5>
+            <h5 class="card-title text-truncate" >${title}</h5>
             <p class="card-text-description text-secondary">${text}</p>
           </a>
         </div>

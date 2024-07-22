@@ -8,7 +8,7 @@
         "imagen": "../../imagenes/AuricularesRedragon.jpg",
         "text": "¡Experimentá la adrenalina de sumergirte en la escena de otra manera! Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida. Con los Redragon Ares no te perdés ningún detalle y escuchás el audio tal y como fue diseñado por los creadores.",
         "price": 21999,
-        "fecha": "2024/06/05"
+        "fecha": "2024/07/05"
       },
       {
         "id": 2,
@@ -16,7 +16,7 @@
         "imagen": "../../imagenes/teclado.jpg",
         "text": "El Genesis Thor 303 RGB es el sucesor del popular modelo Thor 300, que llega al mercado en las variantes Full y TKL, ofreciendo a todos los compradores la posibilidad de intercambiar los switches Outemu Blue por otros de distintas características para escritura o videojuegos.",
         "price": 60629,
-        "fecha": "2024/06/05"
+        "fecha": "2024/07/05"
       },
       {
         "id": 3,
@@ -72,7 +72,7 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_787359-MLA42899391577_072020-O.webp",
         "text": "Genius SP-HF180 ofrece un sonido natural, con una gran claridad y precisión, que se dispersa de manera uniforme. Un parlante que asegura potencia y calidad por igual en la reproducción de contenidos multimedia.",
         "price": 18499,
-        "fecha": "2024/06/22"
+        "fecha": "2024/07/02"
       },
       {
         "id": 24,
@@ -126,7 +126,7 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_801864-MLU72645266561_112023-O.webp",
         "text": "Eleva tu experiencia de juego al siguiente nivel con la Placa de video Nvidia Zotac Gaming GeForce RTX 3090 ZT-A30900D-10P 24GB. Esta potente tarjeta gráfica de la reconocida marca Zotac, perteneciente a la serie GeForce RTX 30, te permitirá disfrutar de tus juegos favoritos con una calidad de imagen y rendimiento insuperables.",
         "price": 1081675,
-        "fecha": "2024/05/12"
+        "fecha": "2024/07/12"
       },
       {        
         "id": 26,
@@ -251,7 +251,7 @@
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_803748-MLA75232940172_032024-O.webp",
         "text": "Protección Completa para tus Dispositivos Kaspersky Total Security Premium ofrece una defensa completa contra ciberamenazas en tiempo real. Con nuestro galardonado antivirus y sistema antihackeo, tus dispositivos estarán seguros las 24 horas del día. Navega y trabaja con total tranquilidad.",
         "price": 26910,
-        "fecha": "2024/07/05"
+        "fecha": "2024/05/05"
       }
     ]
   }

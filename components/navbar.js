@@ -44,7 +44,6 @@ async function buildNavBar() {
     { title: 'Software', link: '../categorias/catSoftware.html' },
   ];
 
-  console.log(noHayNotificaciones)
   return `
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
@@ -114,8 +113,3 @@ async function buildNavBar() {
 }
 
 export { buildNavBar };
-
-
-/*
-
-*/ 

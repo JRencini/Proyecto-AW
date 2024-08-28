@@ -1,0 +1,102 @@
+[
+  {
+    "idUsuario": 0,
+    "fechaCompra": "2024/07/29",
+    "idArticulos": [2, 15, 29]
+  },
+  {
+    "idUsuario": 1,
+    "fechaCompra": "2024/06/15",
+    "idArticulos": [3, 8, 27]
+  },
+  {
+    "idUsuario": 2,
+    "fechaCompra": "2024/07/01",
+    "idArticulos": [12, 18]
+  },
+  {
+    "idUsuario": 3,
+    "fechaCompra": "2024/05/20",
+    "idArticulos": [6, 14, 25]
+  },
+  {
+    "idUsuario": 4,
+    "fechaCompra": "2024/04/10",
+    "idArticulos": [4, 22]
+  },
+  {
+    "idUsuario": 5,
+    "fechaCompra": "2024/07/15",
+    "idArticulos": [9, 19, 28]
+  },
+  {
+    "idUsuario": 6,
+    "fechaCompra": "2024/05/30",
+    "idArticulos": [7, 13, 21]
+  },
+  {
+    "idUsuario": 7,
+    "fechaCompra": "2024/06/25",
+    "idArticulos": [3, 11, 30]
+  },
+  {
+    "idUsuario": 8,
+    "fechaCompra": "2024/03/18",
+    "idArticulos": [10, 20, 26]
+  },
+  {
+    "idUsuario": 9,
+    "fechaCompra": "2024/07/05",
+    "idArticulos": [2, 17]
+  },
+  {
+    "idUsuario": 10,
+    "fechaCompra": "2024/04/27",
+    "idArticulos": [5, 16, 24]
+  },
+  {
+    "idUsuario": 11,
+    "fechaCompra": "2024/07/20",
+    "idArticulos": [1, 8, 23]
+  },
+  {
+    "idUsuario": 2,
+    "fechaCompra": "2024/06/10",
+    "idArticulos": [12, 14, 29]
+  },
+  {
+    "idUsuario": 3,
+    "fechaCompra": "2024/05/05",
+    "idArticulos": [6, 27]
+  },
+  {
+    "idUsuario": 4,
+    "fechaCompra": "2024/04/01",
+    "idArticulos": [4, 25, 30]
+  },
+  {
+    "idUsuario": 5,
+    "fechaCompra": "2024/07/12",
+    "idArticulos": [9, 22]
+  },
+  {
+    "idUsuario": 6,
+    "fechaCompra": "2024/05/18",
+    "idArticulos": [7, 13, 20]
+  },
+  {
+    "idUsuario": 7,
+    "fechaCompra": "2024/06/05",
+    "idArticulos": [3, 11, 24]
+  },
+  {
+    "idUsuario": 8,
+    "fechaCompra": "2024/03/30",
+    "idArticulos": [10, 21, 26]
+  },
+  {
+    "idUsuario": 9,
+    "fechaCompra": "2024/07/08",
+    "idArticulos": [2, 19, 28]
+  }
+]
